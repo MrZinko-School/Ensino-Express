@@ -1,0 +1,56 @@
+main {
+    padding: 0 100px 100px;
+    text-align: center;
+}
+
+#titulo h1 {
+    color: var(--cor-primaria);
+}
+#titulo p {
+    color: var(--texto-cinza);
+    font-size: 0.8em;
+}
+
+section.emocional {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    box-sizing: border-box;
+}
+
+article.ajuda {
+    background-color: red;
+    color: var(--texto-claro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 350px;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+article.ajuda input {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.35);
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    width: 100%;
+    height: 100px;
+}   
+article.ajuda h3 {
+    font-size: 1.3em;
+}
+article.ajuda p {
+    font-weight: bold;
+}
+
+article.msg-semana {
+    background-color: var(--cor-terciaria);
+    color: var(--texto-claro);
+    padding: 20px 40px;
+    border-radius: 10px;
+    height: 100%;
+    max-width: 350px;
+}

@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Ensino Express</title>
+
+    <!-- CSS BASE -->
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    
+    <!-- HOME CSS -->
+    <link rel="stylesheet" href="../css/home.css">
+
+</head>
+<body>
+    <!-- NavBar -->
+    <nav>
+        <!-- Logo -->
+        <section id="Logo">
+            <a href="home.html"><img src="../img/logo_ensino_express.png" alt="Logo Ensino EXPRESS"></a>
+        </section>
+
+        <!-- Tópicos da navbar -->
+        <section class="topicos">
+            <div class="dropdown">
+                <a href="#">MATÉRIAS</a>
+                <div class="dropdown-menu">
+                    <a href="./história.html">História</a>
+                    <a href="./geografia.html">Geografia</a>
+                    <a href="./sociologia.html">Sociologia</a>
+                    <a href="./filosofi.html">Filosofia</a>
+                    <a href="./matemática.html">Matemática</a>
+                    <a href="./química.html">Química</a>
+                    <a href="./física.html">Física</a>
+                    <a href="./português.html">Português</a>
+                </div>
+            </div>
+            <a href="./cronogramas.html">CRONOGRAMAS</a>
+            <div class="dropdown">
+                <a href="#">APOIO</a>
+                <div class="dropdown-menu">
+                    <a href="./dicas.html">Dicas de estudo</a>
+                    <a href="./emocional.html">Emocional</a>
+                </div>
+            </div>
+            <a href="https://www.pciconcursos.com.br/simulados/" target="_blank">SIMULADOS</a>
+        </section>
+
+        <!-- Botão do perfil -->
+        <section class="perfil">
+            <a href="perfil.html"><img src="../img/professor-filosofia.png" alt="Foto de perfil do usuário"></a>
+        </section>
+    </nav>
+
+    <!-- Conteúdo -->
+    <main>
+
+        <!-- Banner e início do site -->
+        <section class="initial-scroll">
+
+            <!-- Texto inicial e CTA -->
+            <article class="texto-início">
+                <h1>Aprenda mais rápido. Conquiste sua aprovação</h1>
+                <p>Tenha acesso a aulas, simulados, questões comentadas e um cronograma personalizado para evoluir todos os dias e alcançar seus objetivos.</p>
+
+                <button type="button" onclick="window.location.href='registro.html'">COMEÇE AGORA!</button>
+            </article>
+
+            <!-- Banner do site -->
+            <article class="banner">
+                <img src="../img/banner.jpeg" alt="Estudantes">
+                <img id="banner-logo" src="../img/logo_ensino_express.png" alt="Logo da Ensino Express">
+            </article>
+
+        </section>
+
+        <!-- Explore mais -->
+        <section class="explore-mais">
+
+            <!-- Título do Explore Mais -->
+            <article id="titulo">
+                <h1>EXPLORE MAIS</h1>
+            </article>
+
+            <!-- Carrossel de imagens -->
+            <section class="carousel-section">
+                <div class="carousel" data-images="
+                ../img/portugues-img.jpg,
+                ../img/matematica-img.jpg,
+                ../img/geografia-content.png,
+                ../img/filosofia-content.png,
+                ../img/sociologia-content.png,
+                ../img/fisica-img.jpg,
+                ../img/quimica-img.jpg,
+                ">
+
+                    <div class="carousel-track">
+                        <div class="carousel-item left" data-pos="left"></div>
+                        <div class="carousel-item center" data-pos="center"></div>
+                        <div class="carousel-item right" data-pos="right"></div>
+                    </div>
+
+                    <div class="carousel-buttons">
+                        <button class="carousel-btn prev" aria-label="Anterior">‹</button>
+                        <button class="carousel-btn next" aria-label="Próximo">›</button>
+                    </div>
+                </div>
+            </section>
+            <!-- Fim do Carrossel -->
+
+        </section>
+
+        <!-- Nosso diferencial -->
+        <section class="diferencial">
+
+            <article id="titulo">
+                <h1>NOSSO DIFERENCIAL</h1>
+            </article>
+
+            <div class="topicos-laterais">
+                <article>
+                    <img src="../img/materiais.png">
+                    <h4>Aprendizado Personalizado</h4>
+                    <p>Estude no seu ritmo com trilhas de estudo organizadas de acordo com seus objetivos e dificuldades.</p>
+                </article>
+
+                <article>
+                    <img src="../img/exercícios.png">
+                    <h4>Aprendizado Personalizado</h4>
+                    <p>Estude no seu ritmo com trilhas de estudo organizadas de acordo com seus objetivos e dificuldades.</p>
+                </article>
+
+                <article>
+                    <img src="../img/aulas.png">
+                    <h4>Aprendizado Personalizado</h4>
+                    <p>Estude no seu ritmo com trilhas de estudo organizadas de acordo com seus objetivos e dificuldades.</p>
+                </article>
+
+            </div>
+
+        </section>
+
+        <!-- Depoimento dos formandos -->
+        <section class="depoimentos">
+
+            <article id="titulo">
+                <h1>DEPOIMENTO DOS FORMANDO</h1>
+            </article>
+
+            <div id="separador">
+                <article class="falas">
+                    <div>
+                        <h4>Ana Clara, 18 anos</h4>
+                        <p>"O cronograma personalizado me ajudou a organizar meus estudos pela primeira vez. Antes eu não sabia por onde começar, agora consigo acompanhar minha evolução todos os dias."</p>
+                    </div>
+    
+                    <div>
+                        <h4>Heitos Sparns, 17 anos</h4>
+                        <p>"Os simulados são muito parecidos com os vestibulares que estou prestando. Depois de algumas semanas usando a plataforma, comecei a me sentir muito mais confiante nas provas."</p>
+                    </div>
+                </article>
+    
+                <article class="comentar">
+                    <h2>DEIXE SEU COMENTÁRIO</h2>
+                    <p>Diga-nos o que achou da plataforma</p>
+    
+                    <form id="linha">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="name" name="name" required>
+                        
+                        <label for="idade">Idade</label>
+                        <input type="number" max="100" id="idade" name="idade" required>
+                    </form>
+                    <form id="texto">
+                        <label for="opinion">Oque achou da plataforma?</label>
+                        <input type="text" id="opinion" name="opinion" required>
+                    </form>
+                </article>
+            </div>
+
+        </section>
+
+        <!-- Notícias e atualizações -->
+        <section class="notices">
+            <article id="titulo">
+                <h1>NOTÍCIAS E ATUALIZAÇÕES</h1>
+            </article>
+            <article>
+                <h3>Novo Simulado ENEM Disponível - 18 Jun 2026</h3>
+                <p>O Ensino EXPRESS acaba de disponibilizar um novo simulado inspirado no formato do ENEM. Os estudantes já podem testar seus conhecimentos e receber um relatório detalhado de desempenho.</p>
+                <a href="#"><h4>[Ler mais]</h4></a>
+            </article>
+
+            <article>
+                <h3>Novas Aulas de Matemática Adicionadas - 12 Jun 2026</h3>
+                <p>Foram adicionadas novas videoaulas sobre Funções, Geometria Analítica e Probabilidade. O conteúdo já está disponível para todos os usuários da plataforma.</p>
+                <a href="#"><h4>[Ler mais]</h4></a>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-brand">
+                <img src="../img/logo_ensino_express.png" alt="Logo Ensino EXPRESS">
+                <p>Desenvolvido para tornar o estudo mais simples, organizado e acessível.</p>
+            </div>
+            <div class="footer-links">
+                <div>
+                    <h4>Links úteis</h4>
+                    <a href="home.html">Home</a>
+                    <a href="registro.html">Registro</a>
+                    <a href="cronogramas.html">Cronogramas</a>
+                </div>
+                <div>
+                    <h4>Suporte</h4>
+                    <a href="dicas.html">Dicas de estudo</a>
+                    <a href="emocional.html">Emocional</a>
+                </div>
+            </div>
+            <div class="footer-contact">
+                <h4>Contato</h4>
+                <p>Fale conosco para tirar dúvidas, sugerir conteúdos e acompanhar novidades.</p>
+                <a href="mailto:contato@ensinoexpress.com.br">contato@ensinoexpress.com.br</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Ensino EXPRESS. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+    <script src="../js/carousel.js"></script>
+</body>
+</html>

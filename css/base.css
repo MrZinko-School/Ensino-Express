@@ -1,0 +1,39 @@
+/* Variáveis */
+
+:root {
+    /* Cores do site */
+    --cor-primaria: #380d0d;
+    --cor-secundaria: #a40032;
+    --cor-terciaria: #7D2B34;
+
+    --fundo-claro: #e9e2e2;
+    --fundo-escuro: #2C2C2C;
+
+    --texto-claro: #D9D9D9;
+    --texto-cinza: #B2B2B2;
+
+    /* Fontes */
+    --fonte-principal: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    --fonte-titulo: 'DM Serif Display', serif;
+}
+
+/* Configuração geral */
+
+body {
+    margin: 0;
+    font-family: var(--fonte-principal);
+    overflow-x: hidden;
+    background-color: var(--fundo-claro);
+}
+
+#textinho {
+    display: inline-flex;
+    padding-left: 100px;
+    gap: 8px;
+}
+#textinho #claro {
+    color: var(--texto-cinza);
+}
+#textinho #escuro {
+    color: var(--cor-primaria);
+}

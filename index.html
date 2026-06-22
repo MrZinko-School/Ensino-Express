@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Ensino Express</title>
+
+    <!-- CSS BASE -->
+    <link rel="stylesheet" href="./css/base.css">
+
+    <!-- Design da página de login -->
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+<body>
+    <main>
+        <!-- Login -->
+        <section class="login">
+            <!-- Logo Ensino EXPRESS no canto -->
+            <article id="logo">
+                <img src="./img/logo_ensino_express.png" alt="logo Ensino Express">
+                <p id="normal">Ensino</p> <!----> <p id="chique">EXPRESS</p>
+            </article>
+
+            <article class="conteudo">
+                <h1>Bem-vindo</h1>
+                <h2>Coloque suas informações para entrar</h2>
+
+                <form class="login-form" action="./pages/home.html">
+                    <label for="email">E-mail</label>
+                    <input type="email" id="email" name="email" placeholder="Insira seu e-mail" required>
+
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha" placeholder="Insira sua senha" required>
+
+                    <div class="form-row remember-row">
+                        <label class="remember"><input type="checkbox" id="remember" name="remember"> Lembre de mim</label>
+                        <a href="#" class="forgot">Esqueci a senha</a>
+                    </div>
+
+                    <button type="submit">Entrar</button>
+
+                    <button type="button" class="google-btn">Entrar com Google</button>
+
+                    <p class="signup">Não tem conta? <a href="./pages/registro.html">Registre-se</a></p>
+                </form>
+            </article>
+
+        </section>
+
+        <!-- Imagem -->
+        <section class="banner">
+            <img src="./img/banner-login.png" alt="Garoto negro estudando">
+        </section>
+    </main>
+</body>
+</html>

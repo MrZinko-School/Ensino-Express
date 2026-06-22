@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - Ensino Express</title>
+
+    <!-- CSS BASE -->
+    <link rel="stylesheet" href="../css/base.css">
+
+    <!-- CSS REGISTRO -->
+    <link rel="stylesheet" href="../css/registro.css">
+</head>
+<body>
+    <main>
+
+        <section id="logo">
+            <img src="../img/logo_ensino_express.png">
+        </section>
+
+        <section class="registro">
+
+            <h1>Cadastre-se agora</h1>
+            <h2>Coloque suas informações</h2>
+
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="Insira seu e-mail" required>
+
+            <label for="senha">Senha</label>
+            <input type="password" id="senha" name="senha" placeholder="Insira sua senha" required>
+
+            <label for="confirm-senha">Confirme a senha</label>
+            <input type="password" id="conf-senha" name="conf-senha" placeholder="Insira sua senha" required>
+
+            <form class="buttons" action="../pages/home.html">
+                <button type="submit">Registrar</button>
+
+                <button type="button" class="google-btn">Entrar com Google</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

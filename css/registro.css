@@ -1,0 +1,93 @@
+body {
+    background-color: var(--cor-primaria);
+    color: var(--texto-claro);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+}
+
+#logo img {
+    width: 100px;
+}
+
+section.registro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.registro h1 {
+    margin-bottom: 10px;
+    font-size: 2.4rem;
+    margin-bottom: 0;
+}
+
+section.registro h2 {
+    color: var(--texto-cinza);
+    margin-top: 0;
+    font-size: 1rem;
+    line-height: 1.5;
+    max-width: 360px;
+}
+
+section.registro {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+section.registro label {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--texto-claro);
+}
+
+section.registro input,
+section.registro button {
+    padding: 14px 16px;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+section.registro input {
+    background: rgba(255, 255, 255, 0.1);
+    color: var(--texto-claro);
+    outline: none;
+}
+
+section.registro input::placeholder {
+    color: rgba(217, 217, 217, 0.7);
+}
+
+section.registro input:focus {
+    border-color: var(--cor-secundaria);
+    box-shadow: 0 0 0 4px rgba(164, 0, 50, 0.12);
+}
+
+form.buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 16px;
+}
+
+section.registro button {
+    margin: 0;
+    border: none;
+    background: var(--cor-secundaria);
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+section.registro button:hover {
+    background: #c0184c;
+}

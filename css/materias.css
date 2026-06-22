@@ -1,0 +1,105 @@
+main {
+    display: flex;
+    padding: 100px;
+    padding-top: 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.conteúdo {
+    display: inline-flex;
+    gap: 40px;
+    background-color: var(--texto-cinza);
+    padding: 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+article.foto {
+    background-color: var(--fundo-claro);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+article.foto img {
+    width: 250px;
+}
+article.foto button {
+    background-color: var(--fundo-claro);
+    color: var(--cor-primaria);
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    border: 1px solid var(--cor-primaria);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+article.foto button:hover {
+    background-color: var(--cor-secundaria);
+    border-color: var(--cor-secundaria);
+    color: var(--texto-claro);
+}
+
+article.informações {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    color: var(--cor-secundaria);
+}
+div#retomar {
+    background-color: var(--fundo-claro);
+    border-radius: 10px;
+    padding: 0px 50px;
+    box-sizing: border-box;
+    height: 50%;
+}
+div#retomar button {
+    background-color: var(--fundo-claro);
+    color: var(--cor-primaria);
+    width: 100%;
+    padding: 10px 16px;
+    border-radius: 10px;
+    font-size: 0.95rem;
+    border: 1px solid var(--cor-primaria);
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+div#retomar button:hover {
+    background-color: var(--cor-secundaria);
+    border-color: var(--cor-secundaria);
+    color: var(--texto-claro);
+}
+
+div#frequência {
+    background-color: var(--fundo-claro);
+    border-radius: 10px;
+    padding: 0px 50px;
+    box-sizing: border-box;
+    height: 50%;
+}
+
+section.professor {
+    margin-top: 30px;
+    background-color: var(--texto-cinza);
+    border-radius: 10px;
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+    max-width: 730px;
+}
+section.professor h3 {
+    color: var(--cor-secundaria);
+}
+section.professor img {
+    width: 150px;
+    height: 150px;
+}
+
+section.video {
+    padding-top: 100px;
+}

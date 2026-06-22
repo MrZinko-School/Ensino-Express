@@ -1,0 +1,46 @@
+main {
+    display: flex;
+    justify-content: center;
+    padding: 0px 100px 100px;
+}
+
+section.cronogramas {
+    display: flex;
+    flex-flow: wrap;
+    gap: 60px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+article#cronograma {
+    background-color: var(--texto-cinza);
+    max-height: 300px;
+    max-width: 400px;
+    gap: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+article#cronograma:hover {
+    scale: 1.05;
+}
+article#cronograma p {
+    color: var(--cor-primaria);
+}
+article#cronograma h5 {
+    color: #bf5f7c;
+}
+article#cronograma img {
+    height: 100%;
+    border: 1px solid var(--cor-primaria);
+    border-radius: 10px;
+}
+
+#titulo {
+    color: var(--cor-secundaria);
+    font-size: 1.3em;
+    font-weight: bold;
+}
